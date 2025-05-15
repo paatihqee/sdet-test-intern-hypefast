@@ -24,8 +24,8 @@ Melakukan pengujian otomatis pada halaman registrasi pengguna di platform Melaka
 | TC ID   | Deskripsi                                                                                   | Expected Result                                                             |
 |---------|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | TC01    | Semua field diisi valid → form bisa disubmit                                               | Form berhasil disubmit dan muncul pesan sukses                              |
-| TC02a   | Nomor telepon < 10 digit → error muncul                                                    | Error “Nomor telepon tidak boleh kurang dari 10 karakter” muncul            |
-| TC02b   | Nomor telepon > 12 digit → error muncul                                                    | Error “Nomor telepon tidak boleh lebih dari 12 karakter” muncul             |
+| TC02    | Nomor telepon < 10 digit → error muncul                                                    | Error “Nomor telepon tidak boleh kurang dari 10 karakter” muncul            |
+| TC03    | Nomor telepon > 12 digit → error muncul                                                    | Error “Nomor telepon tidak boleh lebih dari 12 karakter” muncul             |
 | TC04    | Field “Nama” kosong → error muncul                                                         | Error “Wajib diisi” muncul di bawah field Nama                              |
 | TC05    | Email tidak valid (contoh: `fatih@`) → error muncul                                        | Error “Harap isi dengan format yang benar” muncul di bawah field Email      |
 | TC06    | Password dan Konfirmasi Password tidak cocok → error muncul                                | Error “Belum sesuai dengan kata sandi” muncul di bawah field konfirmasi     |
