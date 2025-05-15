@@ -3,7 +3,7 @@
 **Environment:** `https://dashboard.melaka.app/register`  
 **Framework:** Playwright + TypeScript  
 **Tanggal Eksekusi:** 2025-05-15  
-**Executor:** Fatih Nugraha
+**Executor:** Muhamad Adillah Fatih
 
 ---
 
